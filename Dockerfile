@@ -1,2 +1,3 @@
-FROM scratch
-ADD single-day.json /
+FROM busybox
+RUN mkdir data
+ADD single-day.json  /data 
